@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      }
+      body {
+        background-image: url(img/valentine-s-day-children-s-room-with-little-bear-pink-wall-background-3d-rendering\ 1.png);
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .gallery {
+        width: 50%;
+        height: 70%;
+        display: flex;
+        justify-content: left;
+        border: 5px solid rgb(172, 116, 116);
+        position: absolute;
+       margin: 200px auto;
+      }
+      .gallery > figure {
+        flex-basis: 5%;
+        flex-grow: 1;
+        border: 2px solid rgb(185, 137, 137);
+        overflow: hidden;
+        justify-content: center;
+        transition: 1s;
+      }
+      figure:hover {
+        flex-grow: 10;
+      }
+      .gallery > figure > img {
+        height: 100%;
+      }
+      .box {
+  position: absolute;
+  width: 707px;
+  height: 90px;
+  left: 0;
+  top: 0;
+  /* margin: 20px auto; */
+ 
+}
+.box > h2 {
+  width: 100%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 100px;
+  overflow: hidden;
+  transition: 4s;
+}
+
+.box > h2:nth-of-type(1) {
+  background-color: rgb(255, 203, 203);
+  color: rgb(214, 121, 121);
+}
+.box > h2:nth-of-type(2) {
+  color: rgb(133, 92, 92);
+}
+.box:hover > h2:nth-of-type(2) {
+  width: 30%;
+}
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="gallery">
+        <figure>
+          <img
+            src="img/6127cd18-9613-48a0-bd9c-b005ff0970dd_1.f8fe0d295cab5d1699281fe7a6105f96.webp"
+            alt=""
+          />
+        </figure>
+        <figure>
+          <img src="img/My_project-1__3_.webp" alt="" />
+        </figure>
+        <figure>
+          <img src="img/11.jfif" alt="" />
+        </figure>
+        <figure>
+          <img
+            src="img/Unicorn-Plush-Toy-Cute-Unicorn-Doll-Cute-Animal-Stuffed-Unicornio-Soft-Pillow-Baby-Kids-Toys-for.jpg"
+            alt=""
+          />
+        </figure>
+        <figure>
+          <img
+            src="img/teletubbies-20cm-talking-plush-assorted.jpg.webp"
+            alt=""
+          />
+        </figure>
+        <figure>
+          <img src="img/212.jfif" alt="" />
+        </figure>
+      </div>
+      <section>
+        <div class="box">
+          <h2>gallery</h2>
+          <h2>gallery</h2>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

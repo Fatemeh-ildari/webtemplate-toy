@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(img/valentine-s-day-children-s-room-with-little-bear-pink-wall-background-3d-rendering\ 1.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.menu {
+  width: 250px;
+  height: 100vh;
+  border: 1px solid rgb(128, 92, 92);
+  position: relative;
+}
+.menu > ul {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(235, 202, 202);
+
+
+}
+.menu > ul > li {
+  list-style-type: none;
+  position: relative;
+  height: 70px;
+  /* background-color: rgb(126, 87, 87); */
+}
+.menu a {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu > ul > li > a {
+  align-items: center;
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+
+  border-bottom: 1px solid #ffffff91;
+}
+.menu > ul > li > a:hover {
+  background-color: rgb(133, 92, 92);
+  color: black;
+}
+.submenu {
+  background-color: rgb(186, 136, 136);
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 0;
+  overflow: hidden;
+  transition: 2s;
+}
+.menu > ul > li:hover > .submenu {
+  width: 100%;
+}
+.submenu > li {
+  list-style-type: none;
+  height: 50px;
+}
+.submenu > li > a {
+  border: 1px solid rgb(173, 132, 132);
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  background-color: rgba(194, 150, 150, 0.692);
+  font-size: 16px;
+  border-bottom: 1px solid #000;
+}
+.box {
+  position: absolute;
+  /* width: 100%; */
+  /* height: 166px; */
+  left: 500px;
+  top: 100px;
+  /* margin: 40px auto; */
+}
+.box > h1 {
+  width: 50%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  font-size: 100px;
+  overflow: hidden;
+  transition: 4s;
+  background-color: rgb(173, 132, 132);
+  border-radius: 20px;
+  padding: 20px;
+}
+.box > h2 {
+  width: 65%;
+  position: relative;
+  padding: 15px;
+  margin: 5px;
+  /* border: 5px solid red; */
+  background-color: rgb(133, 92, 92);
+  border-radius: 20px;
+}
+.box > h4 {
+  width: 60%;
+  position: relative;
+  padding: 15px;
+  margin: 5px;
+  /* border: 5px solid red; */
+  background-color: rgb(133, 92, 92);
+  border-radius: 20px;
+  /* font-size: 50px; */
+}
+.box>figure>img{
+  width: 30%;
+  height: 50%;
+
+}
+/* .box > h2:nth-of-type(1) {
+  background-color: rgb(255, 203, 203);
+  color: rgb(214, 121, 121);
+}
+.box > h2:nth-of-type(2) {
+  color: rgb(133, 92, 92);
+}
+.box:hover > h2:nth-of-type(2) {
+  width: 30%;
+}
+.box>h3:nth-last-of-type(1){
+width: 628px;
+position: relative;
+height: 96px;
+left: 573px;
+top: 483px;
+
+} */
+
+
